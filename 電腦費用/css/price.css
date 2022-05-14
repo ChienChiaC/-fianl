@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+body{
+  font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+}
+
+
+/* 以上為reset */
+
+.redBtn{
+width: 128px;
+height: 40px;
+background-color: #FF5D50;
+border-radius: 22px;
+line-height:40px ;
+color: #F5F5F5;
+font-size: 16px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.titleBg{
+   width: 100%;
+    height: 526px;
+    box-shadow: 0px 2px 10px #00000014;
+    
+    
+}
+
+.bgi{
+    background-image: url(../img/機器人手機第二頁.svg);
+    width: 100%; height: 880px;
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+
+.questionBar{
+    width: 60%;
+height: 58px;
+box-shadow: 0px 2px 10px #00000014;
+border-radius: 12px;
+line-height: 58px;
+padding-left: 30px;
+}
+
+.questionBar2{
+    width:60%;
+    height: 154px;
+box-shadow: 0px 2px 10px #00000014;
+border-radius: 12px;
+padding-left: 30px;
+}
+
+.bgBlue{
+    width: 100%;
+height: 470px;
+background-color: #F7F9FD;
+border-radius: 0px 0px 0px 300px;
+}
+
+.blueBtn{
+    width: 15%;
+    height: 50px;
+    background-color: #56C4C5;
+    border-radius: 27px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    border: transparent;
+}
+
+.whiteBtn{
+    width: 15%;
+    height: 50px;
+    border:1px solid #56C4C5;
+    border-radius: 27px;
+    color: #56C4C5;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    background-color: white;
+
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+.whiteBtn:focus{
+    width: 15%;
+    height: 50px;
+    background-color: #56C4C5;
+    border-radius: 27px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    border: transparent;
+}
+
+.whiteBtnSmall:focus{
+    width: 15%;
+    height: 40px;
+    background-color: #56C4C5;
+    border-radius: 27px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    line-height: 40px;
+    border: transparent;
+}
+
+.whiteBtnSmall{
+    width: 15%;
+    height: 40px;
+    border:1px solid #56C4C5;
+    border-radius: 27px;
+    color: #56C4C5;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    background-color: white;
+
+}
+
+
+
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.grayBox{
+    background-color: #F5F5F5;
+    border-radius: 12px;
+width: 169px;
+height: 108px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.button{
+    margin-right: auto;
+    margin-left:auto;
+    width: 136px;
+    height: 49px;
+    background-color: #56C4C5;
+    border-radius: 27px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 49px;
+}
+
+footer{
+    background-color: #F5F5F5;
+}
